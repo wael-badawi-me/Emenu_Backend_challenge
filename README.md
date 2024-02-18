@@ -19,7 +19,7 @@ This api has 5 parameters
 - take:int value on how many items will be return
 <br>call example for CollectionPhoto getList endpoint 
 ```
-/api/CollectionPhoto/GetList
+https://localhost:7165/api/CollectionPhoto/GetList?isDescending=false&skip=0&take=10&filter=%20&sortingCol=%20
 ```
 response example
 ```
